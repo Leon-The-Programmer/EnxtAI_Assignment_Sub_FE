@@ -1,11 +1,13 @@
 {
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
+  "/": "pages/index.html",
+  "/login": "pages/login.html",
+  "/portfolio": "pages/portfolio.html",
+  "/products": "pages/products.html",
+  "/products/[id]": "pages/products/[id].html",
+  "/signup": "pages/signup.html",
+  "/transactions": "pages/transactions.html",
   "/_document": "pages/_document.js",
-  "/login": "pages/login.js",
-  "/products": "pages/products.js",
-  "/products/[id]": "pages/products/[id].js",
-  "/signup": "pages/signup.js",
-  "/portfolio": "pages/portfolio.js",
-  "/transactions": "pages/transactions.js"
+  "/404": "pages/404.html"
 }

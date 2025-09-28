@@ -1,4 +1,4 @@
-import Signup from './signup'; // Adjust the import path according to your file structure
+import Signup from './signup';
 
 export default function Home() {
   return <Signup />;

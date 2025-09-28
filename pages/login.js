@@ -11,7 +11,8 @@ export default function Login() {
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) {
-      router.push('/products'); // Redirect to products if already logged in
+      // Redirect to products if already logged in..
+      router.push('/products');
     }
   }, [router]);
 
@@ -35,7 +36,8 @@ export default function Login() {
 
       if (response.ok) {
         localStorage.setItem('token', jsonRes.token);
-        router.push('/products'); // Redirect to products after login
+        // Redirect to products after login..
+        router.push('/products');
       }
 
     } catch (err) {
