@@ -15,7 +15,7 @@ export default function Products() {
     } else {
       const fetchProducts = async () => {
         try {
-          const response = await fetch('http://localhost:8000/api/v1/products');
+          const response = await fetch('https://enxtai-assignment-sub.onrender.com/api/v1/products');
           const data = await response.json();
           setProducts(data);
         } catch (error) {

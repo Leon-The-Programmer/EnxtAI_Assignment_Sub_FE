@@ -10,7 +10,7 @@ export default function Transactions() {
     const fetchTransactions = async () => {
       try {
         const token = localStorage.getItem('token');
-        const response = await fetch(`http://localhost:8000/api/v1/txn/get-txn?page=${page}&limit=${limit}`, {
+        const response = await fetch(`https://enxtai-assignment-sub.onrender.com/api/v1/txn/get-txn?page=${page}&limit=${limit}`, {
           headers: {
             Authorization: `Bearer ${token}`,
           },
